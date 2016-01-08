@@ -1,5 +1,6 @@
 body {
-
+  font-family: monospace;
+  margin: 0;
 }
 img {
   width: 400px;
@@ -20,16 +21,30 @@ img {
 #myCarousel2 {
   height: 300px;
 }
+.btn {
+}
+.navbar {
+  background-color: lightblue;
+  border: 1px solid #95BDCA;
+}
+
 
 /* ==========================================
 Text
 ========================================== */
+h3 {
+  text-decoration: underline;
+}
 .jumbotron {
   text-align: center;
   text-shadow: 10px 10px 20px black;
   font-family: monospace;
   background-color: lightblue;
   color: white;
+  width: 101%
+}
+.com-sm-12 {
+  width: 101%;
 }
 
 .picturetitle {
@@ -58,7 +73,12 @@ padding-left: 70px;
 padding-right: 70px;
 }
 .aboutmetitle {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
+  background-color: lightblue;
+  width: 101%;
 }
 .aboutmep {
   padding-top: 15px;
@@ -72,11 +92,18 @@ text-decoration: underline;
   text-align: justify;
 }
 .col-sm-4:nth-child(1) {
-  border-right: 1px solid lightblue
+  border-right: 1px solid lightblue;
+  border-top: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
 }
 .col-sm-4:nth-child(2) {
-  border-right: 1px solid lightblue
-
+  border-right: 1px solid lightblue;
+  border-top: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
+}
+.col-sm-4:nth-child(3) {
+  border-top: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
 }
 .col-sm-4:nth-of-type(1) p {
   padding-left: 40px;
@@ -89,4 +116,7 @@ text-decoration: underline;
 .col-sm-4:nth-of-type(3) p {
   padding-right: 30px;
   padding-left: 15px;
+}
+footer {
+  text-align: center;
 }
