@@ -1,6 +1,11 @@
-img {
-  width: 50%;
+body {
 
+}
+img {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .item {
@@ -13,6 +18,11 @@ img {
 /* ==========================================
 Text
 ========================================== */
+.jumbotron {
+  text-align: center;
+  text-shadow: 10px 10px 20px grey;
+}
+
 .picturetitle {
   text-align: center;
   text-decoration: underline;
@@ -20,4 +30,13 @@ Text
 .projecttitle {
   text-align: center;
   text-decoration: underline;
+}
+.carousel-indicators {
+  bottom: 0;
+}
+.carousel-indicators .active {
+  background-color: black;
+}
+.carousel-indicators li {
+  border-color: black;
 }
