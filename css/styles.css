@@ -26,6 +26,13 @@ img {
 }
 .btn {
 }
+.icon-bar {
+  background:#2980b9;
+  font-weight: bold;
+}
+.navbar-toggle {
+  background-color: #ecf0f1;
+}
 .navbar {
   background-color: #2980b9;
   border: 1px solid #95BDCA;
