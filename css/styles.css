@@ -1,6 +1,6 @@
 body {
   font-family: monospace;
-  margin: 0;
+  background-color: #ecf0f1;
 }
 img {
   width: 400px;
@@ -8,7 +8,9 @@ img {
   margin-right: auto;
   display: block;
 }
-
+.container {
+  width: 100%;
+}
 .item {
   height: 300px;
   margin-left: auto;
@@ -24,8 +26,16 @@ img {
 .btn {
 }
 .navbar {
-  background-color: lightblue;
+  background-color: #2980b9;
   border: 1px solid #95BDCA;
+}
+.navbar a {
+  color: #ecf0f1;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: #2980b9;
 }
 
 
@@ -37,23 +47,26 @@ h3 {
 }
 .jumbotron {
   text-align: center;
-  text-shadow: 10px 10px 20px black;
+  text-shadow: 10px 10px 20px lightblue;
   font-family: monospace;
-  background-color: lightblue;
-  color: white;
-  width: 101%
-}
-.com-sm-12 {
-  width: 101%;
+  background-color: #2980b9;
+  color: #ecf0f1;
+  margin-top: 90px;
 }
 
-.picturetitle {
+.picturetitle h3 {
   text-align: center;
   text-decoration: underline;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #2980b9;
 }
-.projecttitle {
+.projecttitle h3 {
   text-align: center;
   text-decoration: underline;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #2980b9;
 }
 .carousel-indicators {
   bottom: 0;
@@ -77,8 +90,8 @@ padding-right: 70px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  background-color: lightblue;
-  width: 101%;
+  background-color: #2980b9;
+  color: #ecf0f1;
 }
 .aboutmep {
   padding-top: 15px;
@@ -88,8 +101,9 @@ text-align: center;
 text-decoration: underline;
 }
 .col-sm-4 {
-  height: 400px;
+  height: 600px;
   text-align: justify;
+  font-size: 20px;
 }
 .col-sm-4:nth-child(1) {
   border-right: 1px solid lightblue;
