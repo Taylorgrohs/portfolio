@@ -37,6 +37,9 @@ img {
 .navbar a:hover {
   color: #2980b9;
 }
+.navbar a:active {
+  color: #2980b9;
+}
 
 
 /* ==========================================
