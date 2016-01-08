@@ -52,7 +52,7 @@ h3 {
 }
 .jumbotron {
   text-align: center;
-  text-shadow: 10px 10px 20px #2980b9;
+  text-shadow: 10px 10px 20px lightblue;
   font-family: monospace;
   background-color: #2980b9;
   color: #ecf0f1;
