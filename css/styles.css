@@ -1,3 +1,23 @@
-h1 {
-  
+img {
+  width: 50%;
+
+}
+
+.item {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* ==========================================
+Text
+========================================== */
+.picturetitle {
+  text-align: center;
+  text-decoration: underline;
+}
+.projecttitle {
+  text-align: center;
+  text-decoration: underline;
 }
