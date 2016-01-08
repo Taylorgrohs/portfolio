@@ -52,7 +52,7 @@ h3 {
 }
 .jumbotron {
   text-align: center;
-  text-shadow: 10px 10px 20px lightblue;
+  text-shadow: 10px 10px 20px #2980b9;
   font-family: monospace;
   background-color: #2980b9;
   color: #ecf0f1;
@@ -111,18 +111,18 @@ text-decoration: underline;
   font-size: 20px;
 }
 .col-sm-4:nth-child(1) {
-  border-right: 1px solid lightblue;
-  border-top: 1px solid lightblue;
-  border-bottom: 1px solid lightblue;
+  border-right: 1px solid #2980b9;
+  border-top: 1px solid #2980b9;
+  border-bottom: 1px solid #2980b9;
 }
 .col-sm-4:nth-child(2) {
-  border-right: 1px solid lightblue;
-  border-top: 1px solid lightblue;
-  border-bottom: 1px solid lightblue;
+  border-right: 1px solid #2980b9;
+  border-top: 1px solid #2980b9;
+  border-bottom: 1px solid #2980b9;
 }
 .col-sm-4:nth-child(3) {
-  border-top: 1px solid lightblue;
-  border-bottom: 1px solid lightblue;
+  border-top: 1px solid #2980b9;
+  border-bottom: 1px solid #2980b9;
 }
 .col-sm-4:nth-of-type(1) p {
   padding-left: 40px;
