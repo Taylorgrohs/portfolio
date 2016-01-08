@@ -10,7 +10,7 @@ _This is the landing page for my Web programming Portfolio_
 
 ## Setup/Installation Requirements
 
-* To view the site go [Here](taylorgrohs.github.io/portfolio)
+* To view the site go [Here](http://taylorgrohs.github.io/portfolio)
 
 
 ## Support and contact details
